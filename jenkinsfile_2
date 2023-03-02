@@ -1,6 +1,6 @@
 pipeline{
   agent  any
-  tools  { def mavenHome = 'maven'
+  tools  { def mavenHome = 'maven 3.9.0'
   }
   stages {
    stage('1getcode'){
