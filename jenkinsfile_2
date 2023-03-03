@@ -10,6 +10,7 @@ pipeline{
       git credentialsId: 'github', url: 'https://github.com/iyalondo/maven-web-application.git'
     }
    }
+ /*  
    stage('2Test&Build'){
     steps{
       sh "mvn clean package"
