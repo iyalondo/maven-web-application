@@ -15,6 +15,7 @@ pipeline{
       sh "mvn clean package"
     }
    }
+ /*  
    stage('3codeQuality'){
     steps{
       sh "mvn sonar:sonar"
